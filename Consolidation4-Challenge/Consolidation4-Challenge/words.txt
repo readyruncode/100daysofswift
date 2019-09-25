@@ -1,0 +1,10 @@
+thumb
+bookshelf
+book
+computer
+keyboard
+laptop
+playstation
+iphone
+macbook
+ipad
