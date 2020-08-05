@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		476CD65924D9D7AF00F8689F /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476CD65824D9D7AF00F8689F /* WhackSlot.swift */; };
 		476DBA32248EDE5500CFDE41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA31248EDE5500CFDE41 /* AppDelegate.swift */; };
 		476DBA34248EDE5500CFDE41 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 476DBA33248EDE5500CFDE41 /* GameScene.sks */; };
 		476DBA38248EDE5500CFDE41 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DBA37248EDE5500CFDE41 /* GameScene.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		476CD65824D9D7AF00F8689F /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 		476DBA2E248EDE5500CFDE41 /* Project14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476DBA31248EDE5500CFDE41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		476DBA33248EDE5500CFDE41 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				476DBA33248EDE5500CFDE41 /* GameScene.sks */,
 				476DBA37248EDE5500CFDE41 /* GameScene.swift */,
 				476DBA39248EDE5500CFDE41 /* GameViewController.swift */,
+				476CD65824D9D7AF00F8689F /* WhackSlot.swift */,
 				476DBA3B248EDE5500CFDE41 /* Main.storyboard */,
 				476DBA3E248EDE5900CFDE41 /* Assets.xcassets */,
 				476DBA40248EDE5900CFDE41 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 			files = (
 				476DBA38248EDE5500CFDE41 /* GameScene.swift in Sources */,
 				476DBA3A248EDE5500CFDE41 /* GameViewController.swift in Sources */,
+				476CD65924D9D7AF00F8689F /* WhackSlot.swift in Sources */,
 				476DBA32248EDE5500CFDE41 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.henrikforsberg.Project14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -324,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.henrikforsberg.Project14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
